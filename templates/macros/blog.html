@@ -16,5 +16,6 @@
     on {{ post.pub_date }}
   </p>
   {{ post.body }}
+  <div class="comments">{{ render_disqus_comments() }}</div>
   </div>
 {% endmacro %}

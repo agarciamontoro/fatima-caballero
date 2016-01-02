@@ -1,5 +1,15 @@
 [project]
 name = Fátima Caballero
+locale = es_ES
+url = http://www.fatimacaballero.es
+
+[packages]
+lektor-markdown-header-anchors = 0.1
+lektor-markdown-admonition = 0.1
+lektor-disqus-comments = 0.2
 
 [servers.ghpages]
+name = GitHub Pages
+enabled = yes
+default = yes
 target = ghpages+https://agarciamontoro/fatima-caballero?cname=fatimacaballero.es
