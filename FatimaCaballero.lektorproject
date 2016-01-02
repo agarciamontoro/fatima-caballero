@@ -2,4 +2,4 @@
 name = Fátima Caballero
 
 [servers.ghpages]
-target = ghpages+https://agarciamontoro/fatima-caballero
+target = ghpages+https://agarciamontoro/fatima-caballero?cname=fatimacaballero.es
